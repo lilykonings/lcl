@@ -1,0 +1,66 @@
+---
+title: Network
+layout: default
+id: network
+---
+
+<div class="lc-section-1 uk-width-4-5 uk-container-center uk-text-center lc-no-overflow">
+	<div class="lc-title">Network.</div>
+	<br><br>
+	<div class="lc-text uk-width-large-4-5 uk-width-medium-4-5 uk-width-1-1 uk-container-center uk-text-left">
+		<div class="lc-text-medium lc-text-bold lc-text-smallcaps lc-text-mute">Past guests &#38; advisors</div>
+		<p class="uk-width-large-4-5 uk-width-medium-4-5 uk-width-1-1">We invite exceptional entrepreneurs and investors to connect with us on occasion.</p>
+		<p class="uk-width-large-4-5 uk-width-medium-4-5 uk-width-1-1">We are focused on quality of engagement with only the top guests rather than having an excessive number of advisors who add little value.</p>
+	</div>
+	<br><br> 
+  {% for guest in site.data.guests %}
+		<div class="lc-guests uk-width-large-1-4 uk-width-medium-1-4 uk-width-1-1 uk-float-left uk-text-left">
+			<img class="uk-width-2-3" src="{{ site.url }}/assets/img/{{ guest.img }}">
+			<br><br>
+			<div class="lc-name">{{ guest.name }}</div>
+			<div class="lc-position">{{ guest.position }}</div>
+			<br>
+			<div class="lc-bio uk-width-9-10">{{ guest.bio }}</div>
+		</div>
+	{% endfor %}
+</div>
+
+<hr class="uk-width-4-5 uk-container-center">
+
+<div class="lc-section-2 uk-width-4-5 uk-container-center uk-text-center lc-no-overflow">
+	<div class="lc-text uk-width-large-4-5 uk-width-medium-4-5 uk-width-1-1 uk-container-center uk-text-left">
+		<div class="lc-text-medium lc-text-bold lc-text-smallcaps lc-text-mute">Partners &#38; support team</div>
+	</div>
+	<br><br>
+	<div data-uk-grid-match>
+		{% for partner in site.data.partners %}
+		<div class="lc-partners uk-width-large-1-5 uk-width-medium-1-5 uk-width-1-2 uk-float-left uk-text-left">
+			<img class="uk-width-4-5" src="{{ site.url }}/assets/img/{{ partner.img }}">
+			<br><br>
+			<div class="lc-name">{{ partner.name }}</div>
+			<div class="lc-position uk-width-9-10">{{ partner.position }}</div>
+		</div>
+		{% endfor %}
+	</div>
+	<br>
+	<div class="uk-width-large-4-5 uk-width-medium-4-5 uk-width-1-1 uk-container-center uk-text-left">
+		<div class="uk-width-4-5 lc-text-mute">
+			Special thanks to Teddy Brinkofski, Ricky Panzer, Benjamin Reinhardt, Mike Gorman, and Zach Bucheister.
+		</div>
+	</div>
+</div>
+
+<hr class="uk-width-4-5 uk-container-center">
+
+<div class="lc-section-3 uk-width-4-5 uk-container-center uk-text-center lc-no-overflow">
+	<div class="lc-text uk-width-large-4-5 uk-width-medium-4-5 uk-width-1-1 uk-container-center uk-text-left">
+		<div class="lc-text-medium lc-text-bold lc-text-smallcaps lc-text-mute">Members</div>
+	</div>
+	<br><br>
+	<div class="lc-members-list uk-width-1-1">
+		{% for member in site.data.members %}
+		<div class="lc-name uk-width-large-1-5 uk-width-medium-1-5 uk-width-1-2 uk-float-left uk-text-left" data-uk-tooltip="{pos:'top-left'}" title="{{ member.company }}">{{ member.name }}</div>
+		{% endfor %}
+	</div>
+	{% include footer.html %}
+</div>

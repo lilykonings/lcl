@@ -1,0 +1,66 @@
+- company: Audiarchy
+  team: 'Jacob Reisch, Matt Reiners'
+  website: [ www.audiarchy.com ]
+  img: audiarchy.png
+  description: 'Audiarchy rents and sells radio frequency wireless headphone technology dedi- cated to group audiences. With unique hardware, a user can plug any audio source (laptop, iPhone, mixer, etc.) into a transmitter, which then broadcasts the signal to all wireless headphones within a 300-foot radius. Launched as Party Headphones in 2013, the company received over $100,000 in revenue within the first 8 months.'
+- company: CladNetwork
+  team: 'Nyan Gadepalli, Viswesh Swaminathan, Brian Xu'
+  website: [ www.cladnetwork.com ]
+  img: cladnetwork.png
+  description: 'CladNetwork is an easy-to-use platform and electronic billboard network that lets small businesses optimize their investment in physical advertising by bringing the intelligence of internet advertising to digital billboards.'
+- company: Collegiate Sun
+  team: 'Alex Tschopp, Anthony Scandariato, Gage Hunt, Justin Stamp'
+  website: [ www.collegiatesun.com, www.thehardynorth.com ]
+  img: collegiatesun.png
+  description: 'Collegiate Sun Brands improves the image and perception of campus stores by de- signing and sourcing high quality collegiate merchandise which are also sold online. We currently do this through two brands, Collegiate Sun and The Hardy North.'
+- company: ellaspark
+  team: 'David Cho, Jimmy Chen, Lillian Chen, Kira Gidron'
+  website: [ www.ellaspark.com ]
+  img: ellaspark.png
+  description: 'ellaspark brings together startups to compete for non-dilutive crowdfunding and to increase demand for their product to accelerate their company growth.'
+- company: Fiberspark
+  team: 'Jeff Shaffer, Jay Lee, Chris Leavitt, Pam Wang. Tingting Wu, Eric Tan'
+  website: [ www.fiberspark.com ]
+  img: fiberspark.png
+  description: 'Fiberspark is a new kind of Internet Service Provider that puts the customer first. We provide connectivity up to 50x faster than current ISPs that never slows down or cuts out and invest in customer care, making sure that every interaction is handled by a team member that is knowledgeable and empowered to help.'
+- company: Saund
+  team: 'Kelsey Kruse, Vitchyr Pong, Max Weisbrod, Andrew Bryan, Sue-Jean Sung'
+  website: [ none ]
+  img: saund.png
+  description: 'saund makes headphones that can be controlled with the mind. Just by thinking, the user can play, pause, adjust volume, and skip a song. We are a hardware/wear- able technology startup using Brain Computer Interface (BCI) technology.'
+- company: Speare
+  team: 'Rahul Shah, Sungho Park, Alisha Sojar, Holly Wiberg, Edward Gong, Demitri Tzitzon'
+  website: [ www.spea.re ]
+  img: speare.png
+  description: 'Speare provides a smart content recommendation engine and analytics dashboard for news and media sites. We are creating a smarter engine that better understands the user through Artificial Intelligence and Natural Language Processing, increasing user engagement and allowing publishers to improve overall performance.'
+- company: StartupBook
+  team: 'Brendan Doyle'
+  website: [ www.startupbook.co ]
+  img: startupbook.png
+  description: 'StartupBook curates the most relevant startup news and advice from top publica- tions and blogs of the most prominent VCs. Just one year into launch, StartupBook is frequently read and referenced by entrepreneurs from over 122 countries.'
+- company: The Exhibition
+  team: 'Suchan Lee, Amy Lee, Michael Raspuzzi'
+  website: [ none ]
+  img: exhibition.png
+  description: 'The Exhibition connects people to local galleries by bringing exhibitions to the cloud. For galleries, it is the easiest way to showcase pieces for an upcoming exhibi- tion or archive past works to create more exposure and increase its audience. Our intuitive interface gives galleries full control to upload/edit/share content for any of their exhibitions. For community members, we enhance the experience of visiting galleries by simplifying the discovery process and providing context surrounding each artwork. This makes the art world approachable and more enjoyable for both new and old art enthusiasts.'
+- company: Thinkplay
+  team: 'Jesse Orshan, Brendan Garrity, Jeff Buswell, Evan Knight'
+  website: [ www.thinkplayaudio.com ]
+  img: thinkplay.png
+  description: 'Thinkplay is building the first software that allows musicians to build, perform with, and sell fully customizable ePedals. thinkplay ePedals are unlike any type of ‘effects pedal’ musicians have used before. The virtual ePedal houses a mapping of audio samples, video clips, and effects which can be triggered in real time, and shared with musicians of various instruments.'
+- company: Tunetap
+  team: 'Feifan Zhou, Mike Falb, Robert Robertson'
+  website: [ www.tunetap.com ]
+  img: tunetap.png
+  description: 'Tunetap lets musicians and venues improve their bottom line by making better decisions. Our site allows the clients to pre-sell tickets to guarantee an audience and provides analytics to predict user behavior and turnout.'
+- company: Worthy Jerky
+  team: 'Alex Krakoski, Ben Pham, Alexander Schonenberg'
+  website: [ www.worthyjerky.com ]
+  img: worthyjerky.png
+  description: 'Worthy Jerky creates all natural beef jerky made with simple yet tasty ingredients. By opting for a variety of fruits and peppers for sweetness and spice, we enrich our marinades with health as well as unique flavor profiles. Pineapple adds tang to teri- yaki, coconut a creaminess to curry, and jalapeno a sharp kick to chipotle. As well as being flavorful, this snack option is naturally low in fat and high in protein to give you the strength to complete any trail.'
+- company: Yorango
+  team: 'Adam Kirsch, Teddy Brinkofski, Will Feng, Dylan Yang, Josh Benamram, +others'
+  website: [ www.yorango.com ]
+  img: yorango.png
+  description: 'Yorango takes the stress out of rentals by connecting and providing tools for land- lords and students. Our platform allows tenants to find housing, sign leases, pay rent, and request repairs online. Landlords are able to list and manage properties in the simplest and most efficient way. Recent highlight: interest from large financial firm to invest after SaaS product launch.'
+

@@ -1,0 +1,27 @@
+- name: Peter Cortle
+  position: 'Founder & Director'
+  img: petercortle.jpg
+- name: Adam Kirsch
+  position: 'Partner -<br>Talent & Communications'
+  img: adamkirsch.jpg
+- name: Pam Wang
+  position: 'Partner -<br>Market Development & Strategy'
+  img: pamwang.jpg
+- name: Vinay Ramprasad
+  position: 'Partner -<br>Business Development'
+  img: vinayramprasad.jpg
+- name: Reed Boehringer
+  position: 'Partner -<br>Community'
+  img: reedboehringer.jpg
+- name: Michael Gardo
+  position: 'Partner -<br>Digital Marketing'
+  img: michaelgardo.jpg
+- name: Stephanie Ko
+  position: 'Partner -<br>Marketing & Operations'
+  img: stephanieko.jpg
+- name: Jean Gerow
+  position: 'Business Plan & Financial Coach'
+  img: jeangerow.jpg
+- name: Pam Silverstein
+  position: 'Entrepreneur-in-Residence'
+  img: pamsilverstein.jpg

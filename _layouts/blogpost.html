@@ -1,0 +1,54 @@
+<!-- Life Changing Labs | made by Lillian Chen | March, 2014 -->
+
+{% include header.html %}
+  <body class="blog">
+    {% include menu.html %}
+    <div class="uk-width-4-5 uk-container-center uk-height-1-1">
+			<div class="mobile-archive uk-button-dropdown" data-uk-dropdown="{mode:'click'}">
+				<button href="#archive" class="uk-button uk-button-success uk-width-2-5 uk-text-center uk-vertical-align-bottom" type="button" data-uk-offcanvas>Archive &nbsp;<i class="uk-icon-caret-up"></i></button>
+				
+				<div class="uk-dropdown uk-dropdown-up">
+					<ul class="uk-nav uk-nav-dropdown">
+						{% for post in site.posts %}
+						<li class="lc-list-item mobile-item">
+							<div class="lc-date lc-text-bold">{{ post.date | date: "%B %-d, %Y" }}</div>
+							<div class="lc-title lc-text-bolder"><a href="{{ post.url }}">{{ post.title }}</a></div>
+							{% if post != site.posts.last %}
+								<hr>
+							{% endif %}
+						</li>
+						{% endfor %}
+					</ul>
+				</div>
+			</div>
+      <div class="lc-post uk-width-7-10 uk-float-left uk-height-1-1">
+        <div class="article uk-width-4-5">
+          <div class="lc-title uk-text-center"><a href="{{ page.url }}">{{ page.title }}</a></div>
+          <div class="lc-author lc-text-mute uk-text-center">by {{ page.author }}</div>
+          <div class="lc-date lc-text-mute uk-text-center">{{ page.date | date: "%B %-d, %Y" }}</div>
+          <div class="lc-body">{{ content }}</div>
+          {% for author in site.data.authors %}
+            {% if author.name == page.author %}
+              <div class="lc-bio lc-text-mute">{{ author.bio }}</div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+      <div class="lc-list uk-width-3-10 uk-float-left uk-height-1-1">
+        <div class="uk-width-9-10 uk-float-right">
+          <div class="lc-text-smallcaps lc-text-bold lc-text-medium">archive</div>
+          <br>
+          {% for post in site.posts %}
+          {% if post.title != page.title %}
+          <div class="lc-list-item">
+            <div class="lc-date lc-text-bold">{{ post.date | date: "%B %-d, %Y" }}</div>
+            <div class="lc-title lc-text-bolder"><a href="{{ post.url }}">{{ post.title }}</a></div>
+            <div class="lc-excerpt line-clamp">{{ post.excerpt | truncatewords: 20 }}</div>
+          </div>
+          {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
