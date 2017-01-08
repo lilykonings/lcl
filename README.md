@@ -20,7 +20,7 @@ All data are loaded from [YAML](http://www.yaml.org/spec/1.2/spec.html) files in
 Properties in these data files are accessed via `site.data`.
 
 ### Blog
-The blog is managed by Jekyll's native "blog aware" functionality in the `_posts` directory. Images are stored in `{{ site.url }}/assets/img/blog`
+The blog is managed by Jekyll's native "blog aware" functionality in the `_posts` directory. Images are stored in `{{ site.url }}/lcl/assets/img/blog`
 
 When creating new posts, you **must** follow the Jekyll convention for naming post files, such as `2014-06-11-example.md`. All posts are written in Markdown with the following front matter: `title, author, layout, categories, id`. `layout` must be "blogpost". `categories` and `id` must always be "blog".
 

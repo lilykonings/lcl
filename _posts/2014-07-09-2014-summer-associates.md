@@ -8,7 +8,7 @@ id: blog
  
 As summer comes, Life Changing Labs welcomes its seven lovely summer associates.
 
-<img class="uk-width-1-4 uk-float-left uk-margin-right" src="{{ site.url }}/assets/img/blog/Ruhani.jpg" alt="Ruhani Arya"/>\\
+<img class="uk-width-1-4 uk-float-left uk-margin-right" src="{{ site.url }}/lcl/assets/img/blog/Ruhani.jpg" alt="Ruhani Arya"/>\\
 <br>
 **Name:** Ruhani Arya\\
 **Hometown:** Chandigarh, India\\
@@ -35,7 +35,7 @@ Soon, you find yourself tackling the impossible\\
 
 ---
 
-<img class="uk-width-1-4 uk-float-left uk-margin-right" src="{{ site.url }}/assets/img/blog/Luke.jpg" alt="Luke Goodman"/>\\
+<img class="uk-width-1-4 uk-float-left uk-margin-right" src="{{ site.url }}/lcl/assets/img/blog/Luke.jpg" alt="Luke Goodman"/>\\
 <br>
 **Name:** Luke Goodman\\
 **Hometown:** Long Beach, NY\\
@@ -48,7 +48,7 @@ Soon, you find yourself tackling the impossible\\
 
 ---
 
-<img class="uk-width-1-4 uk-float-left uk-margin-right" src="{{ site.url }}/assets/img/blog/Anqi.jpg" alt="Anqi Guo"/>\\
+<img class="uk-width-1-4 uk-float-left uk-margin-right" src="{{ site.url }}/lcl/assets/img/blog/Anqi.jpg" alt="Anqi Guo"/>\\
 <br>
 **Name:** Anqi Guo\\
 **Hometown:** Jiangsu, China\\
@@ -61,7 +61,7 @@ Soon, you find yourself tackling the impossible\\
 
 ---
 
-<img class="uk-width-1-4 uk-float-left uk-margin-right" src="{{ site.url }}/assets/img/blog/William.jpg" alt="Will Larkin"/>\\
+<img class="uk-width-1-4 uk-float-left uk-margin-right" src="{{ site.url }}/lcl/assets/img/blog/William.jpg" alt="Will Larkin"/>\\
 <br>
 **Name:** Will Larkin\\
 **Hometown:** Buffalo, NY\\
@@ -74,7 +74,7 @@ Soon, you find yourself tackling the impossible\\
 
 ---
 
-<img class="uk-width-1-4 uk-float-left uk-margin-right" src="{{ site.url }}/assets/img/blog/Vivian.png" alt="Vivian Liu"/>\\
+<img class="uk-width-1-4 uk-float-left uk-margin-right" src="{{ site.url }}/lcl/assets/img/blog/Vivian.png" alt="Vivian Liu"/>\\
 <br>
 **Name:** Vivian Liu\\
 **Hometown:** New York City\\
@@ -87,7 +87,7 @@ Soon, you find yourself tackling the impossible\\
 
 ---
 
-<img class="uk-width-1-4 uk-float-left uk-margin-right" src="{{ site.url }}/assets/img/blog/Justin.png" alt="Justin Selig"/>\\
+<img class="uk-width-1-4 uk-float-left uk-margin-right" src="{{ site.url }}/lcl/assets/img/blog/Justin.png" alt="Justin Selig"/>\\
 <br>
 **Name:** Justin Selig\\
 **Hometown:** New York City\\

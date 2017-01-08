@@ -35,9 +35,9 @@ id: companies
 		<div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-1-2 uk-float-left">
 			{% for site in company.website %}
 				{% if site == 'none' %}
-					<img class="uk-width-2-3" src="{{ site.url }}/assets/img/{{ company.img }}">
+					<img class="uk-width-2-3" src="{{ site.url }}/lcl/assets/img/{{ company.img }}">
 					{% else %}
-					<a href="http://{{ site }}" target="_blank" alt="{{ company.company }}"><img class="uk-width-2-3" src="{{ site.url }}/assets/img/{{ company.img }}"></a>
+					<a href="http://{{ site }}" target="_blank" alt="{{ company.company }}"><img class="uk-width-2-3" src="{{ site.url }}/lcl/assets/img/{{ company.img }}"></a>
 					{% break %}
 				{% endif %}
 			{% endfor %}
@@ -46,7 +46,7 @@ id: companies
 	</div>
 	{% for company in site.data.companies %}
 	<div class="lc-list uk-width-1-1 uk-container-center lc-no-overflow uk-hidden">
-		<div class="lc-list-img uk-width-large-1-4 uk-width-medium-1-2 uk-width-1-2 uk-float-left uk-text-center"><img class="uk-width-2-3" src="{{ site.url }}/assets/img/{{ company.img }}"></div>
+		<div class="lc-list-img uk-width-large-1-4 uk-width-medium-1-2 uk-width-1-2 uk-float-left uk-text-center"><img class="uk-width-2-3" src="{{ site.url }}/lcl/assets/img/{{ company.img }}"></div>
 		<div class="lc-list-detail uk-width-large-3-4 uk-float-left uk-text-left">
 			<div class="uk-width-9-10 uk-container-center">
 				<span class="lc-category">Company: </span>{{ company.company }}<br>
