@@ -12,7 +12,7 @@ id: blog
 				{% for post in site.posts %}
 				<li class="lc-list-item mobile-item">
 					<div class="lc-date lc-text-bold">{{ post.date | date: "%B %-d, %Y" }}</div>
-					<div class="lc-title lc-text-bolder"><a href="{{ post.url }}">{{ post.title }}</a></div>
+					<div class="lc-title lc-text-bolder"><a href="/lcl/{{ post.url }}">{{ post.title }}</a></div>
 						{% if post != site.posts.last %}
 						<hr>
 						{% endif %}
@@ -26,7 +26,7 @@ id: blog
 		<div class="article uk-width-4-5">
 			<div class="lc-text-smallcaps lc-text-bolder lc-text-mute uk-text-center">latest post</div>
 			<br>
-			<div class="lc-title uk-text-center"><a href="{{ site.posts.first.url }}">{{ site.posts.first.title }}</a></div>
+			<div class="lc-title uk-text-center"><a href="/lcl/{{ site.posts.first.url }}">{{ site.posts.first.title }}</a></div>
 			<div class="lc-author lc-text-mute uk-text-center">by {{ site.posts.first.author }}</div>
 			<div class="lc-date lc-text-mute uk-text-center">{{ site.posts.first.date | date: "%B %-d, %Y" }}</div>
 			<div class="lc-body">{{ site.posts.first.content }}</div>
@@ -45,7 +45,7 @@ id: blog
 				{% if post != site.posts.first %}
 					<div class="lc-list-item">
 						<div class="lc-date lc-text-bold">{{ post.date | date: "%B %-d, %Y" }}</div>
-						<div class="lc-title lc-text-bolder"><a href="{{ post.url }}">{{ post.title }}</a></div>
+						<div class="lc-title lc-text-bolder"><a href="/lcl/{{ post.url }}">{{ post.title }}</a></div>
 						<div class="lc-excerpt line-clamp">{{ post.excerpt | truncatewords: 20 }}</div>
 					</div>
 				{% endif %}
